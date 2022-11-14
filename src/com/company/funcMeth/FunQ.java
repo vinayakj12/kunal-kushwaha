@@ -3,6 +3,7 @@ package com.company.funcMeth;
 public class FunQ {
 
     public static void main(String[] args) {
+        System.out.println(prime(45));
 
     }
 
@@ -16,7 +17,7 @@ public class FunQ {
             c++;
         }
 
-        return c*c > n;
+        return true;
     }
 
 
