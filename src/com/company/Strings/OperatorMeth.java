@@ -14,7 +14,7 @@ public class OperatorMeth {
         // ! error + operator should work with one primitive and one object or objects and string.
         // System.out.println(new Integer(56) + new ArrayList<>());
 
-        // method overloading in java is present in the println
+        // method overloading in java is present in the println according to arguments passed.
 
         // * method overriding is present in the tostring for default object with arrays.tostring
 
