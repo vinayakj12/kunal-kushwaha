@@ -49,7 +49,26 @@ public class SubSeq {
 
         left.addAll(right);
         return left;
-
-
     }
+
+    static void subseqAscii(String p , String up)
+    {
+        if (up.isEmpty())
+        {
+            System.out.println(p);
+            return;
+        }
+
+        char ch = up.charAt(0);
+
+        // add it
+        subseqAscii(p+ch,up.substring(1));
+
+        // ignore it
+        subseqAscii(p,up.substring(1));
+
+        // ascii value
+        subseqAscii(p+ (ch+0),up.substring(1));
+    }
+
 }
