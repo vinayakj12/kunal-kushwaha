@@ -1,7 +1,7 @@
 package com.company.arrays;
 
 public class MaxVarray {
-
+//
 
     public static void main(String[] args) {
         int[] arr = {1,2,23,9,18};

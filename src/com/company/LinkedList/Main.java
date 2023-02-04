@@ -26,9 +26,30 @@ public class Main {
 //        list.display();
 
         // ? CLL
-        CLL list = new CLL();
-        list.insertLast(99);
-        list.insertLast(10);
-        list.display();
+//        CLL list = new CLL();
+//        list.insertLast(99);
+//        list.insertLast(10);
+//        list.display();
+
+        // ? insert using recursion
+//        LL list = new LL();
+//        list.insertRec(12,0);
+//        list.insertRec(1,1);
+//        list.insertRec(2,3);
+//        list.display();
+
+        // ? reverse the sublist
+//        LL list = new LL();
+//        list.insertAtLast(1);
+//        list.insertAtLast(2);
+//        list.insertAtLast(3);
+//        list.insertAtLast(4);
+//        list.insertAtLast(5);
+//        list.display();
+//        list.reverseBetween(list.getHead(),2,4);
+//        list.display();
+
+        LL list = new LL();
+        list.nodetest();
     }
 }
